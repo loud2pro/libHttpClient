@@ -4,6 +4,7 @@
 #include "pch.h"
 #include "XTaskQueuePriv.h"
 #include "SpinLock.h"
+#include <type_traits>
 
 #define ASYNC_BLOCK_SIG         0x41535942 // ASYB
 #define ASYNC_BLOCK_RESULT_SIG  0x41535242 // ASRB
